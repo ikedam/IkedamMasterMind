@@ -1,0 +1,57 @@
+html{
+	background-color: #8B0000;
+	color: #F0E68C;
+}
+
+a, a:link, a:visited, a:active {
+	color: inherit;
+	text-decoration: underline;
+	/*
+	text-decoration: none;
+	border-bottom:2px #B5A642 dotted;
+	*/
+}
+
+a:hover {
+	color: inherit;
+	text-decoration: underline;
+	/*
+	text-decoration: none;
+	border-bottom:2px #B5A642 solid;
+	*/
+}
+
+p.image{
+	text-align: center;
+}
+
+h1{
+	font-size: 120%;
+	text-align: center;
+}
+
+h1:before{
+	content: url(images/title_minidam.png);
+	vertical-align: -30%;
+}
+
+h1:after{
+	content: url(images/title_ikedam.png);
+	vertical-align: -30%;
+}
+
+h2{
+	font-size: 100%;
+	border-bottom: 2px solid #F0E68C;
+	padding-left: 30px;
+	background: url(images/crown.png) no-repeat;
+}
+
+.image{
+	text-align: center;
+}
+
+.copyright{
+	border-top: 1px solid #F0E68C;
+	text-align: right;
+}

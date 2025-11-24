@@ -1,0 +1,127 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="ja">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=320,initial-scale=1.0,user-scalable=yes">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>あそびかた</title>
+</head>
+<body>
+<h1>イケダム読心 あそびかた</h1>
+<h2>もくじ</h2>
+<ul>
+	<li><a href="#goal">ゲームの目的</a></li>
+	<li><a href="#rule">ゲームのあそびかた</a></li>
+	<li><a href="#blow-and-hit">当たりと旗の色</a></li>
+	<li><a href="#menu">メニュー</a></li>
+	<li><a href="#balls">玉の数の設定</a></li>
+	<li><a href="#score">成績</a></li>
+	<li><a href="#actors">キャラクター</a></li>
+</ul>
+
+<h2 id="goal">ゲームの目的</h2>
+<p>ミニダムが四色の玉を並べたよ。<br>
+どの色の玉をどの順番で並べたのかを当ててね。</p>
+
+<h2 id="rule">ゲームのあそびかた</h2>
+<ol>
+	<li>最初にミニダムが四色の玉を並べるよ。でもどの色の玉をどの順番で並べたかは教えてくれないよ。</li>
+		<div class="image"><img title="ミニダムが玉を並べる" src="images/minidam_spell.png" width="160" height="76" /></div>
+	<li>ミニダムがどの色の玉をどの順番で並べたかを予想して、画面下に置いてある玉をドラッグアンドドロップで選んで並べてね。</li>
+		<div class="image"><img title="ドラッグ＆ドロップで玉を移動" src="images/drag_and_drop.png" width="160" height="92" /></div>
+	<li>これだ！と思う並びが決まったら、TRY!!ボタンを押そう。ミニダムが自分が並べた玉と比べて、結果を教えてくれるよ。</li>
+		<div class="image"><img title="TRY!!ボタン" src="images/press_try.png" width="160" height="43" /></div>
+		<ul>
+			<li>色だけが合っている場合には白い旗が立つよ。</li>
+			<li>色も場所も合っている場合には黒い旗が立つよ。</li>
+		</ul>
+		<div class="image"><img title="ミニダムの判定" src="images/minidam_judge.png" width="160" height="230" /></div>
+		<p class="alert">注意！旗の位置は玉の位置と関係しないよ。 </p>
+	<li>玉の並びが当てられなかった場合(黒い旗が四本立たなかった場合)は、いままでに試した玉の並びとミニダムが教えてくれた結果から、もう一度玉の並びを考えてみてね。</li>
+		<div class="image"><img title="いままでの履歴" src="images/history.png" width="160" height="230" /></div>
+	<li>全部の玉の色と場所が当たったら(黒い旗が四本立ったら)、クリアだよ！</li>
+		<div class="image"><img title="四本黒旗" src="images/4hits.png" width="160" height="118" /></div>
+		<!--<div class="image"><img title="クリアー" src="images/congraturations.png" width="160" height="118" /></div>-->
+</ol>
+
+<h2 id="blow-and-hit">当たりと旗の色</h2>
+<h3>玉の色だけがあっている場合</h3>
+<ul>
+	<li>ミニダムが選んだ玉と同じ色の玉を選んでいるけれども、玉の置いてある場所が違う場合は白い旗が立つよ。</li>
+	<li>例: 1つだけ色があっている場合</li>
+		<div class="image"><img title="1つだけ色があっている場合" src="images/blow1.png" width="160" height="110" /></div>
+	<li>複数の玉の色があっている(けれど場所が違う)場合、色が合っている玉の数だけ白い旗が立つよ。</li>
+	<li>例: 2つの玉の色があっている場合</li>
+		<div class="image"><img title="2つの玉の色があっている場合" src="images/blow2.png" width="160" height="110" /></div>
+</ul>
+<h3>玉の色と場所があっている場合</h3>
+<ul>
+	<li>ミニダムが選んだ玉と同じ色の玉が同じ場所に置いてある場合、黒い旗が立つよ。</li>
+	<li>例: 1つだけ玉の色・場所があっている場合</li>
+		<div class="image"><img title="1つだけ玉の色・場所があっている場合" src="images/hit1.png" width="160" height="110" /></div>
+	<li>複数の玉の色・場所があっている場合、合っている玉の数だけ黒い旗が立つよ。</li>
+	<li>例: 2つの玉の色・場所があっている場合</li>
+		<div class="image"><img title="2つの玉の色・場所があっている場合" src="images/hit2.png" width="160" height="110" /></div>
+</ul>
+<h3>両方混ざっている場合</h3>
+<ul>
+	<li>色だけあっている玉と、色と場所の両方があっている玉の両方がある場合、白い旗と黒い旗の両方が立つよ。</li>
+	<li>例: 色・場所があっている玉が1つ、色だけあっている玉が1つある場合</li>
+		<div class="image"><img title="色・場所があっている玉が1つ、色だけあっている玉が1つある場合" src="images/hit1blow1.png" width="160" height="110" /></div>
+	<li>例: 色・場所があっている玉が2つ、色だけあっている玉が2つある場合</li>
+		<div class="image"><img title="色・場所があっている玉が2つ、色だけあっている玉が2つある場合" src="images/hit2blow2.png" width="160" height="110" /></div>
+</ul>
+
+<h2 id="menu">メニュー</h2>
+<p>ゲーム中に右上のメニューボタンを押すとメニューが開くよ。<p>
+		<div class="image"><img title="メニュー" src="images/menu.png" width="160" height="32" /></div>
+<p>開いたメニューでは次のことができるよ。</p>
+<dl>
+	<dt>あたらしいゲーム</dt>
+		<dd>ミニダムに新しく玉を並べ直してもらうよ。</dd>
+	<dt>
+	<dt>タイトルにもどる</dt>
+		<dd>ゲームを中断してタイトルに戻るよ。タイトル画面で「さいかい」を選んだら、いままで遊んだところからまた遊べるよ。</dd>
+	<dt>
+	<dt>ゲームをさいかい</dt>
+		<dd>メニューを閉じて、続きを遊ぶよ。</dd>
+	<dt>
+</dl>
+
+<h2 id="balls">玉の数の設定</h2>
+<p>タイトル画面の「せってい」を選ぶと、設定画面で玉の色を4～8までの間で設定できるよ。</p>
+<p>玉の数が多いほどミニダムが選んだ玉の色を当てにくくなるので、難易度が上がるよ。</p>
+
+<h2 id="score">成績</h2>
+<p>タイトル画面の「せいせき」を選ぶと、いままで遊んだ成績が表示されるよ。</p>
+<p>玉の数ごとに、こんなことが記録されるよ。</p>
+<dl>
+	<dt>挑戦回数</dt>
+		<dd>遊んだ回数。一度もTRY!!を押していない回は数えないよ。</dd>
+	<dt>クリア回数</dt>
+		<dd>玉の色と並びを当ててクリアした回数。</dd>
+	<dt>勝率</dt>
+		<dd>挑戦したうちのクリアした割合。</dd>
+	<dt>クリア手数</dt>
+		<dd>クリアまでにTRY!!で玉の並びを試した回数。</dd>
+	<dt>クリア時間</dt>
+		<dd>最初にTRY!!を押してから、クリアまでにかかった時間。</dd>
+</dl>
+<p>他の玉の数での成績を見たい時は、左右のボタンを押すか、スワイプするとページがめくれるよ。</p>
+
+<h2 id="actors">キャラクターについて</h2>
+<h3>ミニダム</h3>
+<p><image src="images/minidam.png" width="100" height="101" alt="ミニダム">王様。</p>
+
+<h3>イケダム</h3>
+<p><image src="images/ikedam.png" width="82" height="107" alt="イケダム">王様の遊び相手。</p>
+
+<p>イケダム、ミニダムについてもっと知りたい人は、「<a href="http://www.ikedam.jp/" title="イケダム係長旅行記" target="_blank">イケダム係長旅行記</a>」を見にきてね！</p>
+
+<div class="copyright">
+&copy; 2011 ikedam.jp
+</div>
+
+</body>
+</html>
+
