@@ -1,11 +1,20 @@
 // See https://containers.dev/implementors/json_reference/ for configuration reference
 {
-	"name": "Untitled Node.js project",
+	"name": "ikedam-master-mind-web",
 	"build": {
 		"dockerfile": "Dockerfile"
 	},
 	"remoteUser": "node",
 	"features": {
 		"ghcr.io/devcontainers/features/docker-in-docker:2": {}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"dbaeumer.vscode-eslint",
+				"sohamkamani.code-eol",
+				"spmeesseman.vscode-taskexplorer"
+			]
+		}
 	}
 }
